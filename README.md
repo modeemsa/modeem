@@ -41,6 +41,12 @@ Modeem  dependencies are listed in the [requirements.txt](requirements.txt)
 ```sh
  pip3 install -r requirements.txt
 ```
+Installing nodeJS NPM and rtlcss for LTR support
+
+```sh
+sudo apt-get install nodejs npm -y
+sudo npm install -g rtlcss
+```
 ### Running Modeem
 Once all dependencies are set up, Modeem can be launched by running [modeem-bin](modeem-bin), the command-line interface of the server.
 
